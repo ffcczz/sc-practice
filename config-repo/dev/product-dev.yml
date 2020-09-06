@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: product
+eurake:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1/eurake/
+server:
+  port: 17001

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="baseservice" />
+        <module name="configserver" />
+        <module name="eurakeserver" />
+        <module name="modelprice" />
+        <module name="modelproduct" />
+        <module name="service-price" />
+        <module name="service-prod" />
+        <module name="serviceprice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="baseservice" target="1.8" />
+      <module name="configserver" target="1.8" />
+      <module name="eurakeserver" target="1.8" />
+      <module name="model" target="1.8" />
+      <module name="modelprice" target="1.8" />
+      <module name="modelproduct" target="1.8" />
+      <module name="sc-practice" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="service-buyer" target="1.8" />
+      <module name="service-price" target="1.8" />
+      <module name="service-prod" target="1.8" />
+      <module name="service-produce" target="1.8" />
+      <module name="service-product" target="1.8" />
+      <module name="serviceprice" target="1.8" />
+      <module name="serviceproduct" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

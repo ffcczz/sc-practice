@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: service-prod
+  profiles:
+    active: dev
+  cloud:
+    config:
+      profile: dev
+      uri: http://127.0.0.1:8888/

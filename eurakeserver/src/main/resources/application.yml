@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: eurakeserver
+server:
+  port: 7777
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      - http://127.0.0.1
+    eureka-server-port: 7777

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: price
+eurake:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1/eurake/
+server:
+  port: 17002

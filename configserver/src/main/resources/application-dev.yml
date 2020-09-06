@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri:
+          search-paths: config-repo/dev
+          default-label: master
+server:
+  port: 8888
+
+
+eureka:
+  client:
+    server-url:
+      default-zone: http://127.0.0.1:7777/eureka/
